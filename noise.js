@@ -4,7 +4,6 @@ var playMusic = function(noise){
 };
 
 $(document).ready( function() {
-
   $('.note').on("click", function(){
     var sound = $(this).html();
     var noise = $('#' + sound + 'Audio')[0];
